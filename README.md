@@ -10,7 +10,7 @@ Content discussed :
 - create popup notification in angular material
  
  
- # Step By Step Explanation (Pending...)
+ # Step By Step Explanation
  
  Video Tutorial : https://youtu.be/hfhlzY3U27M
  
