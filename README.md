@@ -9,7 +9,7 @@ Content discussed :
 - render dynamic dropdown
 - create popup notification in angular material
 
-#Issues and Fixes
+##### Issues and Fixes
 -hireDate not inserted to firebase 
 reason: forgot to formate the date before insert/ update operation.
 fix : 
