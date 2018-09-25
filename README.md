@@ -8,7 +8,18 @@ Content discussed :
 - angular form submission
 - render dynamic dropdown
 - create popup notification in angular material
- 
+
+#Issues and Fixes
+-hireDate not inserted to firebase 
+reason: forgot to formate the date before insert/ update operation.
+fix : 
+add DatePipe to app.module.ts providers array
+update in employeeService.ts
+inject the DatePipe to constructor
+constructor(...,private datePipe: DatePipe){}
+update functions : insertEmployee & updateEmployee for hireDate formatting
+hireDate: this.datePipe.transform(employee.hireDate, 'yyyy-MM-dd')
+
  
  # Step By Step Explanation
  
