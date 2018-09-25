@@ -10,9 +10,9 @@ Content discussed :
 - create popup notification in angular material
 
 ## Issues and Fixes
--hireDate not inserted to firebase <br/>
-reason: forgot to formate the date before insert/ update operation. <br/>
-fix :  <br/>
+**hireDate not inserted to firebase** <br/>
+**reason**: forgot to formate the date before insert/ update operation. <br/>
+**fix** :  <br/>
 add DatePipe to app.module.ts providers array <br/>
 update in employeeService.ts <br/>
 inject the DatePipe to constructor <br/>
