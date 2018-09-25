@@ -10,15 +10,15 @@ Content discussed :
 - create popup notification in angular material
 
 ##### Issues and Fixes
--hireDate not inserted to firebase 
-reason: forgot to formate the date before insert/ update operation.
-fix : 
-add DatePipe to app.module.ts providers array
-update in employeeService.ts
-inject the DatePipe to constructor
-constructor(...,private datePipe: DatePipe){}
-update functions : insertEmployee & updateEmployee for hireDate formatting
-hireDate: this.datePipe.transform(employee.hireDate, 'yyyy-MM-dd')
+-hireDate not inserted to firebase <br/>
+reason: forgot to formate the date before insert/ update operation. <br/>
+fix :  <br/>
+add DatePipe to app.module.ts providers array <br/>
+update in employeeService.ts <br/>
+inject the DatePipe to constructor <br/>
+constructor(...,private datePipe: DatePipe){} <br/>
+update functions : insertEmployee & updateEmployee for hireDate formatting <br/>
+hireDate: this.datePipe.transform(employee.hireDate, 'yyyy-MM-dd') <br/>
 
  
  # Step By Step Explanation
