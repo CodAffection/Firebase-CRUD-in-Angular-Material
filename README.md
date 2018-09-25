@@ -13,7 +13,7 @@ Content discussed :
 **hireDate not inserted to firebase** <br/>
 **reason**: forgot to formate the date before insert/ update operation. <br/>
 **fix** :  <br/>
-add DatePipe to app.module.ts providers array <br/>
+add DatePipe to app.module.ts providers array - https://github.com/CodAffection/Firebase-CRUD-in-Angular-Material/blob/c161712fb952baba9cb189ce70c9f1a8ecf096fc/Firebase%20CRUD%20with%20Angular%20Material/src/app/app.module.ts#L31 <br/>
 update in employeeService.ts <br/>
 inject the DatePipe to constructor <br/>
 constructor(...,private datePipe: DatePipe){} <br/>
