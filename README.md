@@ -17,7 +17,7 @@ add DatePipe to app.module.ts providers array - [updated line](https://github.co
 update in employeeService.ts <br/>
 inject the DatePipe to constructor- constructor(...,private datePipe: DatePipe){} [updated line](https://github.com/CodAffection/Firebase-CRUD-in-Angular-Material/blob/1198716b50ffcc2b141ddffbcb165c8434b26197/Firebase%20CRUD%20with%20Angular%20Material/src/app/shared/employee.service.ts#L11) <br/>
 update functions : insertEmployee & updateEmployee for hireDate formatting <br/>
-hireDate: this.datePipe.transform(employee.hireDate, 'yyyy-MM-dd') [updated line](https://github.com/CodAffection/Firebase-CRUD-in-Angular-Material/blob/1198716b50ffcc2b141ddffbcb165c8434b26197/Firebase%20CRUD%20with%20Angular%20Material/src/app/shared/employee.service.ts#L55)<br/>
+hireDate: this.datePipe.transform(employee.hireDate, 'yyyy-MM-dd') [updated line](https://github.com/CodAffection/Firebase-CRUD-in-Angular-Material/blob/e5b0cc739b41b3680dbc1f6fc8f03beda53ca993/Firebase%20CRUD%20with%20Angular%20Material/src/app/shared/employee.service.ts#L55)<br/>
 
  
  # Step By Step Explanation
