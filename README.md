@@ -36,6 +36,14 @@ $ ng serve
 alt="Video Tutorial for Firebase CRUD in Angular Material" width="500" height="400" border="10" /></a>
 
 
+## Complete Angular Material Tutorial
+1. Form Design - https://goo.gl/XmR6Li 
+2. Firebase CRUD - https://goo.gl/3VQn29 [_this one_]  
+3. Angular Material Data Table - https://goo.gl/5h59y5
+4. Material Popup - https://goo.gl/NNf5sp
+5. Material Confirm Dialog - https://goo.gl/pr8rs6
+
+
 | :bar_chart:               |  List of Tutorials   |   | :moneybag:           | Support Us                           |
 |--------------------------:|:---------------------|---|---------------------:|:-------------------------------------|
 | Angular                   |http://bit.ly/2KQN9xF |   |Paypal                | https://goo.gl/bPcyXW                |
